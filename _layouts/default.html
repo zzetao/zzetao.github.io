@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ site.title }}</title>
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+{% include left-sidebar.html %}
+<div class="wrap">
+	{% include menu.html %}
+
+	{{ content }}
+	
+	{% include right-sidebar.html %}
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="article-content">
+	<div class="article-header">
+		<h2 class="title">{{ page.title }}</h2>
+		<p class="sub">
+			<span class="date">
+				<i class="iconfont icon-rili"></i>{{ page.date | date: "%b %-d, %Y" }}
+			</span>
+			<span class="tags">
+				<i class="iconfont icon-tag"></i>{% for tag in page.tags %}<a href="#">{{ tag }}</a>{% endfor %}
+			</span>
+		</p>
+	</div>
+
+	<div class="content">
+		{{ content }}	
+	</div>
+</div>

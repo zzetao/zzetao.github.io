@@ -1,0 +1,18 @@
+title: ZZETAO
+email: izzetao@gmail.com
+avatar: 'http://ob513h52u.bkt.clouddn.com/images/avatar.png'
+description: >
+  进击前端的神经病
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com"
+github_username:  zzetao
+
+# Build settings
+markdown: kramdown
+
+
+permalink: /:year/:month/:day/:title.html
+
+gems: [jekyll-paginate]
+paginate: 6
+paginate_path: "/page/:num"
