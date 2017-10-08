@@ -1,8 +1,8 @@
 <div class="head-menu">
 	<ul>
-		<li><a href="/">Home</a></li>
+		<li><a href="/" {% if page.name == 'index.html' %} class="active" {% endif %}>Home</a></li>
 		<li><a href="#">Code</a></li>
 		<li><a href="#">Archives</a></li>
-		<li><a href="#">About</a></li>
+		<li><a href="/about.html" {% if page.name == 'about.html' %} class="active" {% endif %}>About</a></li>
 	</ul>
 </div>
