@@ -1,10 +1,10 @@
-title: ZZETAO
+title: Zetao Zhuang
 email: izzetao@gmail.com
-avatar: '//blog.zzetao.com/images/avatar.jpeg'
+avatar: '/assets/avatar.png'
 description: >
-  热爱设计的开发者
+  Frontend Developer, Designer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com"
+url: "https://zzetao.github.io"
 github_username:  zzetao
 
 # Build settings
